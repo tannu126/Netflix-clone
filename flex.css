@@ -1,0 +1,222 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  body {
+    background-color: black;
+  }
+  
+  img ,video{
+    width: 100%;
+  }
+  
+  button,
+  select {
+    cursor: pointer;
+  }
+  
+  button,
+  select,
+  input {
+    outline: none;
+  }
+  
+  .container {
+    background-image: url("background\ img.jpg");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: multiply;
+    min-height: 94vh;
+    border-bottom: 8px solid #222;
+  }
+  
+  .container .logo {
+    width: 180px;
+    padding: 10px;
+  }
+  
+  .container .navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .navbar-container .btn-container {
+    display: flex;
+    margin-right: 50px;
+  }
+  
+  .navbar-container .btn-container select,
+  .navbar-container .btn-container button {
+    padding: 7px 17px;
+    color: white;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  .navbar-container .btn-container select {
+    background-color: black;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+  }
+  
+  .navbar-container .btn-container button {
+    background-color: #e50914;
+    margin-left: 32px;
+    border: none;
+  }
+  
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 34px;
+    margin-top: 150px;
+  }
+  
+  /* This selector will select the 2nd h1 element that is inside hero-container */
+  /* You can read more about nth-child on MDN */
+  .hero-container h1 {
+    margin-bottom: 20px;
+    font-size: 50px;
+   
+  }
+  
+  .hero-container h3 {
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 36px;
+  }
+  
+  .hero-container p {
+    font-size: 20px;
+  }
+  
+  .hero-container form {
+    display: flex;
+    margin-top: 28px;
+  }
+  
+  .hero-container form input,
+  .hero-container form button {
+    padding: 24px 16px;
+    max-height: 70px;
+    border-radius: 2px;
+  }
+  
+  .hero-container form input {
+    border: 1px solid #8c8c8c;
+    font-size: 16px;
+    min-width: 500px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    color: black;
+  }
+  
+  .hero-container form button {
+    border: none;
+    font-size: 26px;
+    min-width: 250px;
+    background-color: #e50914;
+    /* read about padding-inline property on MDN to find out what it is */
+    padding-inline: 26px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .feature-section{
+    padding: 90px 45px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 8px solid black;
+
+  }
+  .feature-section .feature{
+     padding: 40px 40px 40px 0;
+  }
+  .feature-section .feature-heading{
+    font-size: 50px;
+    width: 70%;
+    margin-bottom: 20px;
+  }
+  .feature-section .feature-desc{
+    font-size: 26px;
+    max-width: 600px;
+  }
+  .feature-section .feature-media{
+    padding: 50px;
+    width: 45%;
+  } 
+
+  .box-3{
+    padding: 90px 45px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 8px solid black;
+    align-items: center;
+  }
+  .box-3 .box-heading{
+    font-size: 40px;
+    width: 70%;
+    margin-bottom: 20px;
+    
+    
+  }
+   .box-3 .box-desc{
+    font-size: 26px;
+    max-width: 600px;
+   }
+   .box-4{
+    padding: 90px 45px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 8px solid black;
+    align-items: center;
+   }
+   .box-4 .read-box{
+    font-size:30px;
+    width:70%;
+    margin-bottom: 20px;
+   }
+   .box-4 .desc{
+    font-size: 26px;
+    max-width: 600px;
+   }
+   .box-4 .title{
+    margin-bottom: 20px;
+   }
+   .box-4 .video-wrapper{
+    position: absolute;
+    top: 25px;
+    left:  25px;
+    z-index: -1;
+    width: 250px;
+
+   }
+   .box-4 .wrapper{
+    position: relative;
+    width: 500px;
+   }
+
+   .box-5{
+    padding: 90px 45px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 8px solid black;
+    align-items: center;
+   }
+   .box-5 .text{
+    font-size:28px;
+    width:70%;
+    margin-bottom: 20px;
+   }
+   .box-5 .pagraph{
+    font-size: 26px;
+    max-width: 600px;
+   }
+   .box-5 .reader{
+    margin-bottom: 22px;
+   }
